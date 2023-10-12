@@ -1,0 +1,33 @@
+/*CSS*/
+.confetti {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        user-select: none;
+    }
+    body {
+        background: linear-gradient(to bottom, #000, #001f3f);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        cursor: pointer;
+    }
+    .name {
+        font-weight: 900;
+        padding: 30px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 30%;
+        color: #000000;
+        font-family: 'Righteous', cursive;
+        font-size: 80px;
+        letter-spacing: 10px;
+        text-shadow: 2px 4px 11px rgb(0 0 0 / 28%);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+    }
