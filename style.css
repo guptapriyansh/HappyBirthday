@@ -30,4 +30,5 @@
         text-shadow: 2px 4px 11px rgb(0 0 0 / 28%);
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: white;
+        user-select: none;
     }
